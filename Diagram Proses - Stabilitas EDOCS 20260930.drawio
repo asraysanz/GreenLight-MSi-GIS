@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="AMk7uMFsxKBLHNnRVxLK">
+    <mxGraphModel dx="2264" dy="1879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e9fRuYyZZuLOpj3REtJb-1" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="940" width="1680" x="-730" y="-160" as="geometry" />
+        </mxCell>
+        <mxCell id="e9fRuYyZZuLOpj3REtJb-2" parent="e9fRuYyZZuLOpj3REtJb-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Existing" vertex="1">
+          <mxGeometry height="10" width="140" x="185" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="jAMr4x_QnKfVtWEEvdXo-13" edge="1" parent="e9fRuYyZZuLOpj3REtJb-1" source="e9fRuYyZZuLOpj3REtJb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="jAMr4x_QnKfVtWEEvdXo-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490.0000000000041" y="665" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9fRuYyZZuLOpj3REtJb-4" parent="e9fRuYyZZuLOpj3REtJb-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="EPOLICY WEB UI&lt;br&gt;&lt;br&gt;Changes sama seperti&amp;nbsp;&lt;br&gt;EPOLICY DELIVERY CONSUMER.&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="310" width="310" x="185" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="jAMr4x_QnKfVtWEEvdXo-1" parent="e9fRuYyZZuLOpj3REtJb-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="EPOLICY READ MAIL&lt;br&gt;&lt;div&gt;Before : Read Bouncing by Subject &amp;amp; Sender.&lt;br&gt;Last 1Jam.&lt;br&gt;&lt;br&gt;After : Read Bouncing By Subject &amp;amp; Sender &amp;amp; Original-Message-ID &amp;amp; X-Correlation-ID&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="330" width="330" x="870" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="jAMr4x_QnKfVtWEEvdXo-5" parent="e9fRuYyZZuLOpj3REtJb-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="EPOLICY DOCUMENT CONSUMER" vertex="1">
+          <mxGeometry height="130" width="130" x="520" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jAMr4x_QnKfVtWEEvdXo-9" edge="1" parent="e9fRuYyZZuLOpj3REtJb-1" source="jAMr4x_QnKfVtWEEvdXo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jAMr4x_QnKfVtWEEvdXo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jAMr4x_QnKfVtWEEvdXo-11" connectable="0" parent="jAMr4x_QnKfVtWEEvdXo-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="TOPIC" vertex="1">
+          <mxGeometry relative="1" x="-0.2222" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jAMr4x_QnKfVtWEEvdXo-7" parent="e9fRuYyZZuLOpj3REtJb-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="EPOLICY API / EPOLICY DOCUMENT REGISTER" vertex="1">
+          <mxGeometry height="130" width="130" x="240" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="jAMr4x_QnKfVtWEEvdXo-10" edge="1" parent="e9fRuYyZZuLOpj3REtJb-1" source="jAMr4x_QnKfVtWEEvdXo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="jAMr4x_QnKfVtWEEvdXo-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="65" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jAMr4x_QnKfVtWEEvdXo-17" connectable="0" parent="jAMr4x_QnKfVtWEEvdXo-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="TOPIC" vertex="1">
+          <mxGeometry relative="1" x="-0.4483" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jAMr4x_QnKfVtWEEvdXo-8" parent="e9fRuYyZZuLOpj3REtJb-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="EPOLICY API EXTERNAL / EPOLICY DOCUMENT REGISTER EXTERNAL" vertex="1">
+          <mxGeometry height="130" width="130" x="240" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="jAMr4x_QnKfVtWEEvdXo-27" edge="1" parent="e9fRuYyZZuLOpj3REtJb-1" source="jAMr4x_QnKfVtWEEvdXo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jAMr4x_QnKfVtWEEvdXo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jAMr4x_QnKfVtWEEvdXo-28" connectable="0" parent="jAMr4x_QnKfVtWEEvdXo-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="api/v1/Document/Delivery" vertex="1">
+          <mxGeometry relative="1" x="-0.0371" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jAMr4x_QnKfVtWEEvdXo-12" parent="e9fRuYyZZuLOpj3REtJb-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="FITUR RESEND" vertex="1">
+          <mxGeometry height="140" width="140" x="515" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="e9fRuYyZZuLOpj3REtJb-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="EPOLICY DELIVERY CONSUMER.&lt;br&gt;&lt;br&gt;Changes :&lt;br&gt;Add Additional Header to SMTP/EWS as Key and Save to Database.&lt;br&gt;&lt;br&gt;&lt;div align=&quot;left&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; color: rgb(0, 0, 0);&quot;&gt; &lt;span style=&quot;color: rgb(31, 55, 127);&quot;&gt;message&lt;/span&gt;.Headers.&lt;span style=&quot;color: rgb(116, 83, 31);&quot;&gt;Add&lt;/span&gt;(&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;Original-Message-ID&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(31, 55, 127);&quot;&gt;messageId&lt;/span&gt;.&lt;span style=&quot;color: rgb(116, 83, 31);&quot;&gt;ToString&lt;/span&gt;());&lt;br&gt; &lt;span style=&quot;color: rgb(31, 55, 127);&quot;&gt;message&lt;/span&gt;.Headers.&lt;span style=&quot;color: rgb(116, 83, 31);&quot;&gt;Add&lt;/span&gt;(&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;X-Correlation-ID&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;$&quot;SMTPDelivTrack|&lt;/span&gt;{&lt;span style=&quot;color: rgb(31, 55, 127);&quot;&gt;messageId&lt;/span&gt;.&lt;span style=&quot;color: rgb(116, 83, 31);&quot;&gt;ToString&lt;/span&gt;()}&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;&lt;/span&gt;);&lt;br&gt; &lt;span style=&quot;color: rgb(31, 55, 127);&quot;&gt;message&lt;/span&gt;.Headers.&lt;span style=&quot;color: rgb(116, 83, 31);&quot;&gt;Add&lt;/span&gt;(&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;X-Sent-By&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;SMTPDelivTrack&quot;&lt;/span&gt;);&lt;br&gt; &lt;span style=&quot;color: rgb(31, 55, 127);&quot;&gt;message&lt;/span&gt;.Headers.&lt;span style=&quot;color: rgb(116, 83, 31);&quot;&gt;Add&lt;/span&gt;(&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;X-Process-ID&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;SMTP Email Service &amp;amp; Delivery Tracking&quot;&lt;/span&gt;);&lt;br&gt; &lt;span style=&quot;color: rgb(31, 55, 127);&quot;&gt;message&lt;/span&gt;.Headers.&lt;span style=&quot;color: rgb(116, 83, 31);&quot;&gt;Add&lt;/span&gt;(&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;Return-Path&quot;&lt;/span&gt;, &lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;asri.setiawan@axa-mandiri.co.id&quot;&lt;/span&gt;);&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;add catch handler mark as failed&lt;pre style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; color: rgb(0, 0, 0);&quot;&gt; &lt;span style=&quot;color: rgb(31, 55, 127);&quot;&gt;code&lt;/span&gt; == MailKit.Net.Smtp.&lt;span style=&quot;color: rgb(43, 145, 175);&quot;&gt;SmtpStatusCode&lt;/span&gt;.ServiceNotAvailable&lt;br&gt;        || &lt;span style=&quot;color: rgb(31, 55, 127);&quot;&gt;code&lt;/span&gt; == MailKit.Net.Smtp.&lt;span style=&quot;color: rgb(43, 145, 175);&quot;&gt;SmtpStatusCode&lt;/span&gt;.MailboxBusy&lt;br&gt;        || &lt;span style=&quot;color: rgb(31, 55, 127);&quot;&gt;code&lt;/span&gt; == MailKit.Net.Smtp.&lt;span style=&quot;color: rgb(43, 145, 175);&quot;&gt;SmtpStatusCode&lt;/span&gt;.ErrorInProcessing&lt;br&gt;        || &lt;span style=&quot;color: rgb(31, 55, 127);&quot;&gt;code&lt;/span&gt; == MailKit.Net.Smtp.&lt;span style=&quot;color: rgb(43, 145, 175);&quot;&gt;SmtpStatusCode&lt;/span&gt;.InsufficientStorage&lt;br&gt;        || &lt;span style=&quot;color: rgb(31, 55, 127);&quot;&gt;code&lt;/span&gt; == MailKit.Net.Smtp.&lt;span style=&quot;color: rgb(43, 145, 175);&quot;&gt;SmtpStatusCode&lt;/span&gt;.TransactionFailed;&lt;/pre&gt;&lt;br&gt;add catch handler mark as&amp;nbsp;&lt;pre style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; color: rgb(0, 0, 0);&quot;&gt;MailboxUnavailable&lt;br&gt;&lt;br&gt;insert history&lt;/pre&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="425" width="425" x="360" y="-67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jAMr4x_QnKfVtWEEvdXo-18" edge="1" parent="1" source="jAMr4x_QnKfVtWEEvdXo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="e9fRuYyZZuLOpj3REtJb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jAMr4x_QnKfVtWEEvdXo-19" edge="1" parent="1" source="jAMr4x_QnKfVtWEEvdXo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="e9fRuYyZZuLOpj3REtJb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jAMr4x_QnKfVtWEEvdXo-22" connectable="0" parent="jAMr4x_QnKfVtWEEvdXo-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="0.5355" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
